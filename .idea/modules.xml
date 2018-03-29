@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Button.iml" filepath="$PROJECT_DIR$/.idea/Button.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/button.iml" filepath="$PROJECT_DIR$/button.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\Button\app\app.iml" filepath="D:\AndroidStudioProjects\Button\app\app.iml" />
+      <module fileurl="file://D:\AndroidStudioProjects\Button\button.iml" filepath="D:\AndroidStudioProjects\Button\button.iml" />
     </modules>
   </component>
 </project>

@@ -43,11 +43,11 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="138dp"
-            android:src="@drawable/system1"/>
+            android:src="@null"/>
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="138dp"
-            android:src="@drawable/people"
+            android:src="@null"
             android:layout_alignParentTop="true"
             android:layout_marginTop="135dp"
             />
@@ -66,7 +66,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/question1"
+            android:src="@null"
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
@@ -91,7 +91,7 @@
             android:layout_marginRight="70dp"
             android:layout_marginTop="175dp"
             android:id="@+id/editText"
-            android:drawableRight="@drawable/search2"
+            android:drawableRight="@null"
             />
 
         <com.example.mondschein.btnview.ButtonView
