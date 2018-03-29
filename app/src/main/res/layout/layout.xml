@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!-- <android.support.v7.widget.Toolbar
+         android:id="@+id/toolbar"
+         android:layout_height="?attr/actionBarSize"
+         android:layout_width="match_parent"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:weightSum="1">
+         <ImageButton
+             android:layout_width="34dp"
+             android:layout_height="23dp"
+             android:src="@drawable/img2"
+             android:id="@+id/imagebut1"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="生产入库-库位选择"
+             android:textSize="25sp"
+             android:layout_centerHorizontal="true" />
+     </android.support.v7.widget.Toolbar>-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.mondschein.titleview.TitleView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title_text = "确定"
+            app:title_color = "#ff0000"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:src="@drawable/system1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="138dp"
+            android:src="@drawable/people"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="135dp"
+            />
+
+        <RadioButton
+            android:id="@+id/rb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="43dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/question1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" />
+
+
+
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+            android:layout_marginTop="175dp"
+            android:id="@+id/editText"
+            android:drawableRight="@drawable/search2"
+            />
+
+        <com.example.mondschein.btnview.ButtonView
+            android:id="@+id/buttonbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:btn_src = "@mipmap/ch"
+            app:btn_text = "确定"
+            app:btn_text_size = "18"
+            app:btn_text_color = "#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="43dp"
+            />
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B103"
+            android:textSize="25sp"
+            android:layout_marginRight="180dp"
+            android:layout_alignBottom="@+id/rb"
+            android:layout_toStartOf="@+id/rb"
+            android:layout_marginEnd="39dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
